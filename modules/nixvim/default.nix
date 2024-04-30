@@ -5,7 +5,7 @@
   ...
 }:
 with lib.blastdan;
-with theme.nord; {
+{
   config = {
     extraConfigLua = ''
       do
