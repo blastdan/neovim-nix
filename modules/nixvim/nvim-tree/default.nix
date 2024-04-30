@@ -1,5 +1,5 @@
 {lib, ...}:
-with lib.plusultra; {
+with lib.blastdan; {
   keymaps = [
     {
       mode = "n";

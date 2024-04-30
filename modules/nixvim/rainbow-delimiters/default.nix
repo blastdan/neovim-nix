@@ -1,5 +1,5 @@
 {lib, ...}:
-with lib.plusultra.theme.nord; {
+with lib.blastdan.theme.nord; {
   highlight = {
     RainbowDelimiterBlue.fg = nord7;
     RainbowDelimiterOrange.fg = nord12;

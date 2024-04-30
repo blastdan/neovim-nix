@@ -3,7 +3,7 @@
   pkgs,
   ...
 }:
-with lib.plusultra; {
+with lib.blastdan; {
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
       pname = "tree-sitter-playground";

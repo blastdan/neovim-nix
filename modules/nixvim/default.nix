@@ -4,7 +4,7 @@
   pkgs,
   ...
 }:
-with lib.plusultra;
+with lib.blastdan;
 with theme.nord; {
   config = {
     extraConfigLua = ''
@@ -110,7 +110,7 @@ with theme.nord; {
       wrap = true;
       linebreak = true;
 
-      mouse = "";
+      mouse = "a";
       number = true;
       relativenumber = true;
     };

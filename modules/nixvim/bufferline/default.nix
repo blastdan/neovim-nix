@@ -4,8 +4,8 @@
   config,
   ...
 }:
-with lib.plusultra;
-with lib.plusultra.theme.nord; let
+with lib.blastdan;
+with lib.blastdan.theme.nord; let
   bufferline-buffer-text = nord6;
   bufferline-buffer-background = nord1;
   bufferline-buffer-focus-text = nord6;

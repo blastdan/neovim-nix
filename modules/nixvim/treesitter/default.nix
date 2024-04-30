@@ -3,7 +3,7 @@
   pkgs,
   ...
 }:
-with lib.plusultra; {
+with lib.blastdan; {
   extraConfigLua = ''
     require("which-key").register({
       g = {

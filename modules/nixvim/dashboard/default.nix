@@ -3,8 +3,8 @@
   pkgs,
   ...
 }:
-with lib.plusultra;
-with lib.plusultra.theme.nord; {
+with lib.blastdan;
+with lib.blastdan.theme.nord; {
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
       pname = "dbsession.nvim";
@@ -110,9 +110,9 @@ with lib.plusultra.theme.nord; {
       header = [
         ""
         ""
-        "┏━┓╻  ╻ ╻┏━┓╻ ╻╻  ╺┳╸┏━┓┏━┓"
-        "┣━┛┃  ┃ ┃┗━┓┃ ┃┃   ┃ ┣┳┛┣━┫"
-        "╹  ┗━╸┗━┛┗━┛┗━┛┗━╸ ╹ ╹┗╸╹ ╹"
+        "░█▀▄░█░░░█▀█░█▀▀░▀█▀░█▀▄░█▀█░█▀█"
+        "░█▀▄░█░░░█▀█░▀▀█░░█░░█░█░█▀█░█░█"
+        "░▀▀░░▀▀▀░▀░▀░▀▀▀░░▀░░▀▀░░▀░▀░▀░▀"
         ""
       ];
 

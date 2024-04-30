@@ -1,5 +1,5 @@
 {lib, ...}:
-with lib.plusultra.theme.nord; {
+with lib.blastdan.theme.nord; {
   plugins = {
     todo-comments = {
       enable = true;

@@ -3,7 +3,7 @@
   pkgs,
   ...
 }:
-with lib.plusultra; {
+with lib.blastdan; {
   plugins = {
     lsp = {
       enable = true;
@@ -68,10 +68,7 @@ with lib.plusultra; {
       '';
 
       servers = {
-        astro.enable = true;
         bashls.enable = true;
-        cmake.enable = true;
-        clangd.enable = true;
         eslint = {
           enable = true;
 
@@ -85,12 +82,6 @@ with lib.plusultra; {
         html.enable = true;
         jsonls.enable = true;
         lua-ls.enable = true;
-        pyright.enable = true;
-        rust-analyzer = {
-          enable = true;
-          installCargo = true;
-          installRustc = true;
-        };
         tailwindcss.enable = true;
         tsserver = {
           enable = true;

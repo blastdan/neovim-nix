@@ -84,14 +84,14 @@ You can install this package by adding it as an input to your Nix flake.
 ```
 
 If you've added the overlay from this flake, then in your system configuration
-you can add the `plusultra.neovim` package.
+you can add the `blastdan.neovim` package.
 
 ```nix
 { pkgs }:
 
 {
 	environment.systemPackages = with pkgs; [
-		plusultra.neovim
+		blastdan.neovim
 	];
 }
 ```

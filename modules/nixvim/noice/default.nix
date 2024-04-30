@@ -1,6 +1,6 @@
 {lib, ...}:
-with lib.plusultra;
-with lib.plusultra.theme.nord; {
+with lib.blastdan;
+with lib.blastdan.theme.nord; {
   highlight = {
     NormalFloat = {
       fg = nord6;

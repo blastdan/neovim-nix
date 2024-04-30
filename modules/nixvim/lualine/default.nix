@@ -3,8 +3,8 @@
   pkgs,
   ...
 }:
-with lib.plusultra;
-with lib.plusultra.theme.nord; {
+with lib.blastdan;
+with lib.blastdan.theme.nord; {
   config = {
     extraPlugins = with pkgs.vimPlugins; [
       # nvim-navic

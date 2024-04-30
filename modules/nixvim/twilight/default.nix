@@ -3,7 +3,7 @@
   pkgs,
   ...
 }:
-with lib.plusultra; {
+with lib.blastdan; {
   extraPlugins = with pkgs.vimPlugins; [
     twilight-nvim
   ];
