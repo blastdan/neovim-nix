@@ -79,6 +79,7 @@ with lib.blastdan; {
           };
         };
         gopls.enable = true;
+        terraform-ls.enable = true;
         html.enable = true;
         jsonls.enable = true;
         lua-ls.enable = true;
