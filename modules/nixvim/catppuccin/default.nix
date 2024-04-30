@@ -10,6 +10,6 @@
       nvimtree = true;
       treesitter = true;
       notify = true;
-    }
+    };
   };
 }
